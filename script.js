@@ -1,0 +1,1 @@
+document.querySelector('form')?.addEventListener('submit',()=>alert('Thank you! Your appointment request has been submitted.'));
