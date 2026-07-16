@@ -344,45 +344,41 @@ Provide friendly and professional communication with your clients.
 
 <h2 class="section-title">Book an Appointment</h2>
 
-<form name="appointment"
-      method="POST"
-      data-netlify="true"
-      action="thank-you.html">
+<div class="calendly-inline-widget" 
+data-url="https://calendly.com/lilly-scheduling/lilly-business-solutions-consultation" 
+style="min-width:320px;height:700px;">
+</div>
 
-<input type="hidden" name="form-name" value="appointment">
-
+<script 
+src="https://assets.calendly.com/assets/external/widget.js" 
+async>
+</script>
 <input
 type="text"
 name="name"
 placeholder="Full Name"
 required>
-
 <input
 type="email"
 name="email"
 placeholder="Email Address"
 required>
-
 <input
 type="tel"
 name="phone"
 placeholder="Phone Number"
 required>
-
 <input
 type="date"
 name="date"
 required>
-
 <input
 type="time"
 name="time"
 required>
-
 <select
 name="service"
 required>
-
 <option value="">Select a Service</option>
 
 <option>Appointment Scheduling</option>
